@@ -20,4 +20,6 @@ def main
   all.max
 end
 
-puts main()
+if __FILE__ == $0
+  puts main()
+end

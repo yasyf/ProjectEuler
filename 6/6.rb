@@ -18,4 +18,6 @@ def main
   square_of_sum - sum_of_squares
 end
 
-puts main()
+if __FILE__ == $0
+  puts main()
+end
