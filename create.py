@@ -2,14 +2,13 @@
 
 import sys, os
 
-TEMPLATE = """
-#!/usr/bin/env python
+TEMPLATE = """#!/usr/bin/env python
 
-def main:
+def main():
 
 
 if __name__ == '__main__':
-  main()
+  print main()
 
 """
 
